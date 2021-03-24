@@ -4,21 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/gray"
+    android:background="#3A3A3A"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textStyle="bold"
-        android:text="KILOVERTER"
+        android:text="--Kilo'Verter--"
         android:textAlignment="center"
-        android:textColor="@color/white"
+        android:textColor="#59AE5C"
         android:textSize="50sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/bt_gram"
         app:layout_constraintTop_toTopOf="parent" />
-
-
 
 
     <Button
@@ -28,7 +26,8 @@
         android:layout_marginHorizontal="30dp"
         android:layout_marginTop="160dp"
         android:background="@drawable/bg_button"
-        android:text="KILOGRAM - GRAM"
+        android:text='KILOGRAM - "GRAM"'
+        android:textColor="#004903"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.733"
@@ -42,7 +41,8 @@
         android:layout_marginHorizontal="30dp"
         android:layout_marginTop="20dp"
         android:background="@drawable/bg_button"
-        android:text="kilogram - ounce"
+        android:text='kilogram - "ounce"'
+        android:textColor="#004903"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.733"
@@ -57,7 +57,8 @@
         android:layout_marginHorizontal="30sp"
         android:layout_marginTop="24dp"
         android:background="@drawable/bg_button"
-        android:text="KILOGRAM - MILLIGRAM"
+        android:text='KILOGRAM - "MILLIGRAM"'
+        android:textColor="#004703"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.733"
@@ -71,7 +72,8 @@
         android:layout_marginHorizontal="30sp"
         android:layout_marginTop="16dp"
         android:background="@drawable/bg_button"
-        android:text="KILOGRAM - TONNE"
+        android:text='KILOGRAM - "TONNE"'
+        android:textColor="#004903"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -87,7 +89,8 @@
         android:layout_marginHorizontal="30dp"
         android:layout_marginTop="24dp"
         android:background="@drawable/bg_button"
-        android:text="KILOGRAM - POUND"
+        android:text='KILOGRAM - "POUND"'
+        android:textColor="#004903"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.733"
